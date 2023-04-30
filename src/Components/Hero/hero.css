@@ -1,0 +1,145 @@
+.hero{
+    background: url(../../Assets/bg-image.png);
+    height: 750px;
+    background-position: relative;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+    margin-top: -10px;
+}
+.innerh{
+    position: absolute;
+    width: 730px;
+    height: 349px;
+    left: 359px;
+    top: 250px;
+    background: rgba(247, 248, 250, 0.8);
+    backdrop-filter: blur(12px);
+    border-radius: 2px;
+    align-items: center;
+}
+.heading{
+    width: 540px;
+    margin: auto;
+    height: 112px;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: center;
+    color: #1D252C;
+    padding-top: 1.5rem;
+}
+.text{
+    width: 537px;
+    margin: auto;
+    height: 56px;
+    font-family: 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #1D252C;
+}
+.btn{
+    width: 310px;
+    margin: auto;
+    padding-top: 3rem;
+}
+.btn button{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.6452px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 8px 44px;
+    width: 310px;
+    height: 40px;
+    background: #56B280;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+}
+.btn button:hover{
+    background: #125e34;
+}
+.btn button:active {
+    transform: translateY(4px);
+}
+
+
+@media screen and (max-width: 1204px) {
+    .btn button{
+        font-size: 18.6452px;
+        padding: 8px 20px;
+    }
+    .innerh{
+        align-self: center;
+        position: absolute;
+        /* width: 400px; */
+        height: 320px;
+        margin-left: 15%;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .innerh{
+        align-self: center;
+        position: absolute;
+        width: 400px;
+        height: 320px;
+        margin-left: 8%;
+    }
+    .btn{
+        margin-left: 25%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .innerh{
+        align-self: center;
+        position: absolute;
+        width: 500px;
+        height: 320px;
+        margin-left: -8%;
+    }
+  }
+
+  @media screen and (max-width: 425px)  {
+    .hero{
+        width: 425px;
+    }
+    .innerh{
+        align-self: center;
+        position: relative;
+        width: 80%;
+        height: 321px;
+        margin-left: -64.5%;
+        align-items:baseline;
+    }
+    .btn{
+        margin-left: 25%;
+    }
+    .heading{
+        width: 60%;
+        height: 112px;
+        font-size: 30px;
+        margin-right: -2px;
+    }
+    .text{
+        width: 60%;
+        height: 56px;
+        font-size: 13px;
+        margin-right: 3px;
+    }
+    .btn{
+        width: 60%;
+        margin-left: 33%;
+    }
+}  
+
+  

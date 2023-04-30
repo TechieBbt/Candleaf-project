@@ -1,0 +1,308 @@
+.products{
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    width: 100%;
+    height: 650px;
+    margin: auto;
+    background: #FFFFFF;
+}
+.head{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    color: #0B254B;
+    letter-spacing: -0.9px;
+    text-align: center;
+}
+.text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #5E6E89;
+}
+.below-p{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.box-p{
+    width: 281px;
+    height: 230px;
+    border-radius: 1px;
+    margin-bottom: 5rem;
+    filter: drop-shadow(0px 4px 24px rgba(123, 123, 123, 0.15));
+    background-position: absolute;    
+    position: relative;
+    z-index: 2;
+}
+.box-p:hover .add-to-cart {
+    display: block;
+  }
+.candle:hover{
+    opacity: 0.5;
+}
+  .add-to-cart {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin: 5.8rem 0;
+    color: #56B280;
+    background: #F7F8FA;
+    padding: 0.5rem 1.5rem;
+    width: 255px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.9px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .add-to-cart:active {
+    transform: translateY(4px);
+}
+.candle{
+    width: 255px;
+    height: 200px;
+    background: #F7F8FA;
+    background-position: relative;
+}
+.belowCandle{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    width: 255px;
+    height: 70px;
+    
+}
+.desc1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.9px;
+    color: #1D293F;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+.desc2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: right;
+    color: #56B280;
+    padding-right: 1rem;
+}
+
+
+@media only screen and (max-width: 1204px) {
+    .hero {
+        height: 600px;
+        }
+        .innerh {
+        width: 500px;
+        left: 200px;
+        top: 150px;
+        }
+        .heading {
+        font-size: 36px;
+        width: 400px;
+        padding-top: 1rem;
+        }
+        .text {
+        width: 400px;
+        font-size: 16px;
+        height: 50px;
+        }
+        .btn {
+        padding-top: 2rem;
+        }
+        .btn button {
+        width: 250px;
+        height: 36px;
+        font-size: 18px;
+        }
+        .below-p {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+        .box-p {
+        width: 250px;
+        height: 200px;
+        margin-bottom: 2rem;
+        }
+        .candle {
+        width: 250px;
+        height: 150px;
+        }
+        .add-to-cart {
+            margin: 4.5rem 0;
+          }
+        .belowCandle {
+        height: 50px;
+        }
+        .desc1 {
+        font-size: 14px;
+        padding-left: 0.5rem;
+        }
+        .desc2 {
+        font-size: 18px;
+        padding-right: 0.5rem;
+        }
+    }
+    @media only screen and (max-width: 1024px) {
+        .products {
+          height: auto;
+        }
+        .below-p {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 1rem;
+          margin-left: 0;
+          margin-right: 0;
+        }
+        .box-p {
+          width: 300px;
+          height: 250px;
+          margin-bottom: 2rem;
+        }
+        .candle {
+          width: 300px;
+          height: 200px;
+        }
+        .belowCandle {
+          height: 70px;
+        }
+        .desc1 {
+          font-size: 14px;
+          padding-left: 0.5rem;
+        }
+        .desc2 {
+          font-size: 18px;
+          padding-right: 0.5rem;
+        }
+      }
+      
+      @media screen and (max-width: 768px) {
+        .products {            
+          width: 80%;
+          margin-left: 15%;
+          height: auto;
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .head {
+          font-size: 28px;
+          line-height: 40px;
+        }
+        .text {
+          font-size: 14px;
+          line-height: 22px;
+        }
+        .below-p {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 0.5rem;
+          margin-top: 2rem;
+          width: 100%;
+        }
+        .box-p {
+            width: 300px;
+            height: 250px;
+            margin-bottom: 2rem;
+          }
+          .candle {
+            width: 300px;
+            height: 250px;
+          }
+          .add-to-cart {
+            padding-top: 3.5rem;
+          }
+        .belowCandle {
+            width: 200px;
+          height: 70px;
+        }
+        .desc1 {
+          font-size: 14px;
+          padding-left: 0.5rem;
+        }
+        .desc2 {
+          font-size: 18px;
+          padding-right: 0.5rem;
+        }
+        .add-to-cart {
+          margin: 1rem auto;
+        }
+      }
+
+      @media screen and (max-width: 425px) {
+        .products {            
+          width: 100%;
+          margin-left: 0;
+        }
+        .below-p {
+            width: fit-content;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            width: 100%;
+            margin-top: 2rem;
+        }
+        .candle>img{
+            width: 200px;
+            margin-top: 35px;
+        }
+        .add-to-cart{
+            width: 200px;
+        }
+        .box-p {
+            width: 150px;
+            height: 250px;
+            margin-bottom: 2rem;
+          }
+      }
+
+@media screen and (max-width: 425px) {
+        .products {            
+          width: 100%;
+          margin-left: 0;
+        }
+        .below-p {
+            width: fit-content;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            width: 100%;
+            margin-top: 2rem;
+        }
+        .candle>img{
+            width: 200px;
+            margin-top: 35px;
+        }
+        .add-to-cart{
+            width: 200px;
+        }
+        .box-p {
+            width: 150px;
+            height: 250px;
+            margin-bottom: 2rem;
+          }
+      }

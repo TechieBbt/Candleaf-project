@@ -1,0 +1,217 @@
+.cart{
+    padding-top: 1.5rem;
+}
+.mycart{
+    width: 80%;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-bottom: 6rem;
+}
+.cart-head>div:nth-of-type(1){
+    /* width: 539px; */
+    height: 58px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: -0.9px;
+    color: #272727;
+    padding-top: 1rem;
+}
+.cart-head>div:nth-of-type(2){
+    padding-top: 1rem;
+    height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.9px;
+    text-decoration-line: underline;
+    color: #56B280;
+    cursor: pointer;
+}
+.cart-head>div:nth-of-type(2):active {
+    transform: translateY(4px);
+}
+.table-head{
+    display: flex;
+    gap: 28%;
+    padding-top: 4rem;
+}
+.head1{
+    width: 255px;
+    height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.9px;
+    color: #272727;
+}
+.head2{
+    display: flex;
+    gap: 28%;
+}
+.head2>span{
+    width: 160px;
+    height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.9px;
+    color: #272727;
+    margin-left: 5.2rem;
+    margin-right: -5rem;
+}
+.mycart>hr{
+    width: 1110.01px;
+    height: 0px;
+    border: 1px solid #E5E5E5;
+    transform: rotate(0.26deg);
+}
+.table-in{
+    display: flex;
+    gap: 2%;
+    padding: 1rem 0;
+}
+.leftTable{
+    display: flex;
+    gap: 1rem;
+}
+.proImg{
+    width: 160px;
+    height: 130px;
+}
+.proImgside>div:nth-of-type(1){
+    width: 445px;
+    height: 37px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 58px;
+    align-items: center;
+    letter-spacing: -0.9px;
+    color: #272727;
+}
+.proImgside>div:nth-of-type(2){
+    width: 95px;
+    height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.9px;
+    text-decoration-line: underline;
+    color: #56B280;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+.proImgside>div:nth-of-type(2):active {
+    transform: translateY(4px);
+}
+.rightTable{
+    display: flex;
+    gap: 30%;
+    padding-top: 3.2rem;
+}
+.rightTable>span{    
+    width: 150px;
+    height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.9px;
+    color: #272727;
+}
+.boxq{    
+    border: 1px solid #56B280;
+    padding-left: 1rem;
+    width: 75px;
+    height: 30px;
+}
+.boxq:before{
+        content: "\002B";
+        cursor: arrow;
+        margin-right: 0.5rem;
+        color: #56B280;
+    }
+.boxq:after{
+        content: "\002D";
+        cursor: arrow;
+        margin-left: 0.5rem;
+        color: #A7A7A7;
+    }
+.underTable{
+    padding-top: 1.5rem;
+    float: right;
+    margin-right: -0.8rem;
+}
+.under-ta{
+    display: flex;
+    gap: 2rem;
+}
+.firstside{
+    display: flex;
+    gap: 3rem;
+}
+.firstside>span{
+    width: 95px;
+    height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.9px;
+    color: #272727;
+}
+.secSide button{
+    padding: 8px 44px;
+    gap: 10px;
+    width: 183px;
+    height: 40px;
+    background: #56B280;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.secSide button:active {
+    transform: translateY(4px);
+}
+.secSide button:hover{
+    background: #125e34;
+}
+.belowfirst{
+    width: 350px;
+    height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    letter-spacing: -0.9px;
+    color: #9E9E9E;
+    padding-top: 0.3rem;
+    margin-left: -10rem;
+}

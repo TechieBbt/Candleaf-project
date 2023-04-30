@@ -1,0 +1,204 @@
+.about{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    width: 100%;
+    background: #F7F8FA;   
+    margin-top: 4rem; 
+}
+.inner{
+    padding: 1% 10%;
+    display: flex;
+    gap: 3rem;
+}
+.head-a{
+    width: 350px;
+    height: 105px;
+    left: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: -0.9px;
+    color: #1D252C;
+    text-align: left;
+    padding-top: 1.5rem;
+}
+.text-a{
+    width: 350px;
+    height: 25px;
+    padding-bottom: 1.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #56B280;
+}
+.eachlist{
+    display: flex;
+    gap: 0.5rem;
+    width: 540px;
+    height: 28px;
+    padding-bottom: 5px;
+}
+.eachlist>img{
+    width: 14px;
+    height: 14px;
+    padding-top: 7px;
+}
+.eachlist>span{
+    width: 516px;
+    height: 28px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    color: #000000;
+}
+.butn{
+    padding-top: 4rem;
+}
+.butn>button{
+    padding: 8px 44px;
+    gap: 10px;
+    position: absolute;
+    width: 194px;
+    height: 40px;
+    background: #56B280;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.6452px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.butn button:hover{
+    background: #125e34;
+}
+.butn button:active {
+    transform: translateY(4px);
+}
+
+@media  screen and (max-width: 1204px) {
+    .about {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    .inner {
+        padding: 1% 5%;
+        gap: 5rem;
+        align-items: center;
+    }
+    .head-a {
+        width: 100%;
+        font-size: 32px;
+        line-height: 38px;
+        padding-top: 0;
+    }
+    .text-a {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 1rem;
+    }
+    .eachlist {
+        width: 100%;
+    }
+    .eachlist>span {
+        width: auto;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0.5rem;
+    }
+    .eachlist>img {
+        width: 10px;
+        height: 10px;
+        padding-top: 0.5rem;
+    }
+    .butn {
+        padding-top: 2rem;
+    }
+}
+@media  screen and (max-width: 1024px) {
+        .head-a {
+          width: 100%;
+          font-size: 32px;
+          line-height: 38px;
+          padding-top: 0;
+        }        
+        .eachlist>span {
+          width: auto;
+          font-size: 14px;
+          line-height: 20px;
+          padding: 0.5rem;
+        }
+        .eachlist{
+            margin-bottom: 1rem;
+            padding-bottom: 5px;
+        }
+        .eachlist>img {
+          width: 10px;
+          height: 10px;
+          padding-top: 1rem;
+        }
+        .butn {
+          padding-top: 2rem;
+        }
+      }  
+      
+@media screen and (max-width: 768px) {
+    .inner{        
+        margin-bottom: 3rem;
+    }
+    .left-a{
+        width: 50%;
+    }
+    .head-a{        
+        font-size: 28px;
+        width: 80%;
+    }
+    .right-a{
+        width: 50%;
+    }
+    .right-a>img{
+        width: 100%;
+        height: auto;
+    }
+    .eachlist>span {
+        width: auto;
+        font-size: 13px;
+        line-height: 20px;
+        padding: 0.5rem;
+      }
+      .butn>button{
+        padding: 7px 30px;
+        width: 164px;
+        height: 35px;
+        font-size: 16.6452px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .inner{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: -10px;
+    }
+    .left-a{
+        width: 80%;
+    }
+    .right-a{
+        width: 80%;
+    }
+}
+
+
+  
+  

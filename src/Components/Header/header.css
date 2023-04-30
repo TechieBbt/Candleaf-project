@@ -1,0 +1,141 @@
+.header{
+    width: 100%;
+    position: absolute;
+    background-color: #FFFFFF;
+    background-size: cover;
+    z-index: 1;
+    width: 100%;
+    height: 60px;
+}
+.nav{    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.logo{
+    width: 126px;
+    height: 32px;
+    padding-top: 11px;
+    cursor: pointer;
+}
+.logo>img:active {
+    transform: translateY(4px);
+}
+.middle-nav>ul{
+    display: flex;
+    gap: 3rem;
+    height: 25px;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
+.middle-nav li{
+    text-align: center;
+    cursor: pointer;
+}
+.middle-nav li:hover{
+    color: #56B280;
+}
+.middle-nav li:active {
+    transform: translateY(4px);
+}
+.arrow:hover{
+    color: #56B280;
+}
+.arrow {
+    border: solid #272727;
+    border-width: 0 0.25px 0.25px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 3px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+.right-nav{
+    display: flex;
+    gap: 2rem;
+    padding-top: 15px;
+}
+.right-nav>img{
+    width: 25.5px;
+    height: 24.5px;
+    cursor: pointer;
+}
+.right-nav>img:active {
+    transform: translateY(4px);
+}
+.underline hr{
+    width: 99.5%;
+    margin: auto;
+    height: 0px;
+    margin-top: 0.5px;
+    border: 0.5px solid rgba(86, 178, 128, 0.2);
+}
+
+
+@media (max-width: 1204px) {
+    .nav {
+      width: 90%;
+      gap: 2rem;
+    }
+    
+    .logo {
+      width: 100px;
+      height: 26px;
+      padding-top: 9px;
+    }
+    
+    .middle-nav > ul {
+      gap: 1.5rem;
+      font-size: 14px;
+      line-height: 16px;
+    }
+    
+    .right-nav > img {
+      width: 23.5px;
+      height: 22.5px;
+    }
+    .underline hr{
+        margin-top: 6px;
+        border: 0.5px solid rgba(86, 178, 128, 0.2);
+    }
+  }
+  
+  @media (max-width: 425px) {
+        .header {
+        height: 50px;
+        }
+        .nav {
+        width: 90%;
+        gap: 1rem;
+        }
+        .logo {
+        width: 80px;
+        height: 20px;
+        padding-top: 7px;
+        }
+        .middle-nav {
+            display: none;
+        }
+        .right-nav {
+        padding-top: 12px;
+        }
+        .right-nav > img {
+        width: 20.5px;
+        height: 19.5px;
+        }
+        .underline hr {
+        margin-top: 6px;
+        border: 0.5px solid rgba(86, 178, 128, 0.2);
+        }
+    }
