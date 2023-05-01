@@ -11,12 +11,7 @@ const product = () => {
       <Header />
       <div className="about-product">
         <div className="left-side">
-          <img src={Spiced} alt="" />
-          <div className="under1">
-            All hand-made with natural soy wax, Candleaf is made for your
-            pleasure moments.
-            <div className="under2">🚚 FREE SHIPPING</div>
-          </div>
+          <img src={Spiced} alt="" />          
         </div>
         <div className="right-side">
           <div className="right1">Spiced Mint Candleaf®</div>
@@ -31,21 +26,21 @@ const product = () => {
             <div className="right2b">
               <div className="choose-a">
                 <div className="onegroup">
-                <div className="smallcircle"></div>
-                <div className="onetext"> One time purchase</div>
+                  <div className="smallcircle"></div>
+                  <div className="onetext"> One time purchase</div>
                 </div>
                 <div className="choose-b">
                   <div className="subflex">
-                  <div className="sub-sub">
-                    <div className="s-gcircle"></div>
-                    <span>Subscribe and deliver every</span>
-                    <span>4 weeks <i class="arrow down"></i></span>
-                  </div>
-                  <div className="sub-s">
-                    Subscribe now and get the 10% of discount on every recurring
-                    order. The discount will be applied at checkout.
-                    <span className="greentext">See details</span>
-                  </div>
+                    <div className="sub-sub">
+                      <div className="s-gcircle"></div>
+                      <span>Subscribe and deliver every</span>
+                      <span>4 weeks <i class="arrow down"></i></span>
+                    </div>
+                    <div className="sub-s">
+                      Subscribe now and get the 10% of discount on every recurring
+                      order. The discount will be applied at checkout.
+                      <span className="greentext">See details</span>
+                    </div>
                   </div>
                   <div className="sub-btn">
                     <button>
@@ -56,7 +51,18 @@ const product = () => {
               </div>
             </div>
           </div>
-          <div className="right3">
+          
+        </div>
+      </div>
+      <div className="right3">
+            <div className="right3a">
+              <div className="under1">
+              All hand-made with natural soy wax, Candleaf is made for your
+              pleasure moments.
+              <div className="under2">🚚 FREE SHIPPING</div>
+              </div>
+            </div>
+            <div className="right3b">
               <div>
                 <b>Wax:</b> Top grade Soy wax that delivers a smoke less,
                 consistent burn
@@ -70,8 +76,7 @@ const product = () => {
                 <b>Weight:</b> 400g
               </div>
             </div>
-        </div>
-      </div>
+          </div>
       <Footer />
     </div>
   );

@@ -215,3 +215,234 @@
     padding-top: 0.3rem;
     margin-left: -10rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .mycart {
+        width: 90%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    
+    .cart-head > div:nth-of-type(1) {
+        font-size: 20px;
+        line-height: 48px;
+        letter-spacing: -0.7px;
+    }
+    
+    .cart-head > div:nth-of-type(2) {
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0.5rem;
+    }
+    
+    .table-head {
+        gap: 18%;
+        padding-top: 2rem;
+    }
+    
+    .head1 {
+        width: 220px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .head2 > span {
+        width: 120px;
+        font-size: 14px;
+        line-height: 22px;
+        margin-left: 3rem;
+        margin-right: -3rem;
+    }
+    
+    .mycart > hr {
+        width: 870.01px;
+    }
+    
+    .proImg {
+        width: 120px;
+        height: 100px;
+    }
+    
+    .proImgside > div:nth-of-type(1) {
+        width: 280px;
+        height: 28px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .proImgside > div:nth-of-type(2) {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-top: 0.2rem;
+    }
+    
+    .rightTable > span {
+        width: 110px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .boxq {
+        padding-left: 0.5rem;
+        width: 50px;
+        height: 24px;
+    }
+    
+    .underTable{
+        padding-top: 1.5rem;
+        float: right;
+        margin-right: 5rem;
+    }
+    .under-ta{
+        display: flex;
+        gap: 2.5rem;
+    }
+    .firstside > span {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .secSide button {
+        width: 140px;
+        height: 32px;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 6px 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .table-head {
+        gap: 15%;
+        padding-top: 2rem;
+    }
+    
+    .head1 {
+        width: 200px;
+        font-size: 14px;
+        line-height: 22px;
+        margin-left: 2rem;
+    }
+    
+    .head2 > span {
+        width: 100px;
+    }
+    .mycart>hr {
+        width: 90%;
+    }
+    .rightTable {
+        margin-left: -3rem;
+    }
+    .rightTable > span {
+        width: 90px;
+    }
+    .underTable{
+        padding-top: 1.5rem;
+        float: right;
+        margin-right: 0.1rem;
+    }
+    .under-ta{
+        display: flex;
+        gap: 0.1rem;
+    }
+    .secSide button {
+        width: 100px;
+        height: 32px;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 6px 16px;
+    }
+    .boxq{    
+        border: 1px solid #56B280;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-top: 0.5rem;
+        width: 55px;
+        height: 30px;
+    }
+    
+    .rightTable > span {
+        width: 90px;
+        font-size: 13px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .leftTable{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .proImg{
+        width: 60px;
+        height: 130px;
+    }
+    .proImgside>div:nth-of-type(1){
+        width: 140px;
+        height: 37px;
+        font-size: 13px;
+    }
+    .proImgside>div:nth-of-type(2){
+        width: 75px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .head2{
+        gap: 1.7rem;
+        margin-left: -5.5em;
+    }
+    .head2>span{
+        /* margin-left: 2rem; */
+        width: 50px;
+    }
+    .table-head {
+        gap: 8%;
+    }    
+    .head1 {
+        width: 150px;
+        font-size: 14px;
+        line-height: 22px;
+        margin-left: 2.5rem;
+    }
+    .rightTable>span {
+        margin-left: -1.2rem;
+        width: 70px;
+
+    }
+    .rightTable {
+        margin-left: 3rem;
+    }
+    .underTable{
+        padding-top: 1.5rem;
+        float: right;
+        margin-right: 0.1rem;
+    }
+    .firstside{
+        gap: 0;
+        margin-right: -2rem;
+    }
+    .under-ta{
+        gap: 0;
+    }
+    .secSide button {
+        width: 80px;
+        height: 32px;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 6px 13px;
+    }
+    .boxq{    
+        border: 1px solid #56B280;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-top: 0.5rem;
+        width: 50px;
+        height: 30px;
+        margin-top: -8px;
+    }
+}

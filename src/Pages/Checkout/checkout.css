@@ -6,6 +6,66 @@
     padding-bottom: 2rem;
     cursor: pointer;
 }
+.drop{
+    width: 425px;
+    height: 80px;
+    left: 0px;
+    top: 76px;
+    background: #F2F2F2;
+    margin-bottom: 1rem;
+    display: none;
+}
+.drop-down{
+    display: flex;
+    gap: 2rem;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+}
+.details-drop{
+    display: flex;
+}
+.details-drop>span{
+    width: 180px;
+    height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.9px;
+    color: #56B280;
+}
+.d-arrow {
+    border: solid #56B280;
+    border-width: 0 0.25px 0.25px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 3px;
+    margin-left: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.pricedrop{
+    width: 95.91px;
+    height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: right;
+    letter-spacing: -0.9px;
+    color: #272727;
+    margin-left: -11rem;
+}
+
 .check{
     width: 100%;
     display: flex;
@@ -412,4 +472,12 @@ select{
     text-align: right;
     letter-spacing: -0.5px;
     color: #272727;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .fill-details{
+        width: 70%;
+        margin: 0 10% 0 10%;
+    }
 }

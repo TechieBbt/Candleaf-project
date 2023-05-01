@@ -8,7 +8,6 @@
     display: flex;
     gap: 1.5rem;
     padding-top: 5rem;
-    padding-bottom: 5rem;
 }
 .left-side img{
     width: 540px;
@@ -221,15 +220,21 @@
     transform: translateY(4px);
 }
 .right3{
+    display: flex;    
+    padding-bottom: 5rem;
+    margin-left: 10%;
+    gap: 1rem;
+}
+.right3b{
     box-sizing: border-box;
     width: 540px;
     height: 131px;
     border: 1px solid #E6E6E6;
     border-radius: 7px;
     padding: 1rem;
-    margin-top: 3rem;
+    margin-top: -3rem;
 }
-.right3>div{
+.right3b>div{
     width: 494px;
     height: 24px;
     font-family: 'Helvetica';
@@ -239,4 +244,271 @@
     line-height: 26px;
     color: #1D252C;
     padding-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .about-product{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        gap: 1.5rem;
+    }
+    .left-side img{
+        width: 450px;
+        height: 383px;
+    }
+    .under1{
+        width: 450px;
+        height: 110px;
+        left: 165px;
+        top: 572px;
+        font-size: 20px;
+    }
+    
+    .right1{
+        width: 400px;
+        height: 58px;
+        font-size: 20px;
+    }
+    .right2{
+        display: flex;
+        gap: 2rem;
+    }
+    .right2a span{
+        font-size: 20px;
+        width: 470px;
+        height: 59px;
+    }
+    .q-text{
+        font-size: 15px;
+    }
+    .q-box{
+        font-size: 15px;
+    }
+    .onegroup{
+        display: flex;
+        gap: 1rem;
+        padding-bottom: 1.5rem;
+    }
+    .smallcircle{
+        width: 13px;
+        height: 13px;
+        margin-left: 1rem;
+    }
+    .onetext{
+        font-size: 13px;
+    }
+    .subflex{
+        box-sizing: border-box;
+        width: 300px;
+        height: 137px;
+        padding: 0.8rem;
+    }
+    .s-gcircle{
+        width: 13px;
+        height: 13px;
+        background: #87D6AC;
+        margin-left: 0.5rem;
+    }
+    .sub-sub>span:nth-of-type(1){
+        width: 175px;
+        height: 23px;
+        font-size: 13px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: -7px;
+    }
+    .sub-sub>span:nth-of-type(2){
+        width: 70px;
+        height: 21px;
+        font-size: 12px;
+        padding: 1px 5px;
+    }
+    .sub-s{
+        width: 280px;
+        font-size: 14px;
+    }
+    .sub-btn{
+        margin-top: 3rem;
+    }
+    .sub-btn>button{
+        width: 275px;
+        padding: 8px 4px 10px 3px;
+        font-size: 16px;
+    }
+    .right3b{
+        width: 420px;
+        height: 131px;
+        padding: 1rem;
+        margin-top: -1.5rem;
+    }
+    .right3b>div{
+        width: 400px;
+        height: 24px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about-product{
+        margin-left: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .left-side img{
+        width: 500px;
+        height: 383px;
+    }
+    .under1{
+        width: 400px;
+        height: 110px;
+    }
+    
+    .right3{        
+        flex-direction: column-reverse;
+        margin-left: 20%;
+        padding-top: 1rem;
+    }
+    .right3b{
+        width: 420px;
+        height: 131px;
+        padding: 1rem;
+        margin-top: -1.5rem;
+    }
+    .right3b>div{
+        width: 400px;
+        height: 24px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .about-product{
+        margin-left: 15%;
+    }
+    .left-side img{
+        width: 300px;
+        height: 300px;
+    }
+    .under1{
+        width: 300px;
+        height: 110px;
+        font-size: 17px;
+    }
+    .right-side{        
+        margin-left: 0;
+    }
+    
+    .right3{
+        margin-left: 12%;
+    }
+    .right3b{
+        width: 370px;
+        height: 131px;
+        padding: 1rem;
+        margin-top: -1.5rem;
+    }
+    .right3b>div{
+        width: 350px;
+        height: 24px;
+        font-size: 11px;
+    }
+    .right-side{        
+        margin-left: 0;
+    }
+    .right1{
+        width: 200px;
+        height: 58px;
+        font-size: 17px;
+    }
+    .right2{
+        display: flex;
+        flex-direction: column;
+    }
+    .right2a{
+        display: flex;
+        gap: 0;
+    }
+    .quantity{
+        margin-top: -2.5rem;
+        display: flex;
+        gap: 1rem;
+    }
+    .right2a span{
+        font-size: 20px;
+        width: 100px;
+        height: 59px;
+    }
+    .q-text{
+        font-size: 15px;
+    }
+    .q-box{
+        font-size: 15px;
+        height: 1.5rem;
+        margin-top: 2.5rem;
+        width: 3.3rem;
+
+    }
+    .onegroup{
+        display: flex;
+        gap: 1rem;
+        padding-bottom: 1.5rem;
+    }
+    .smallcircle{
+        width: 13px;
+        height: 13px;
+        margin-left: 1rem;
+    }
+    .onetext{
+        font-size: 13px;
+    }
+    .subflex{
+        box-sizing: border-box;
+        width: 280px;
+        height: 137px;
+        padding: 0.8rem;
+    }
+    .s-gcircle{
+        width: 13px;
+        height: 13px;
+        background: #87D6AC;
+        margin-left: 0.2rem;
+    }
+    .sub-sub>span:nth-of-type(1){
+        width: 170px;
+        height: 23px;
+        font-size: 12px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: -7px;
+    }
+    .sub-sub>span:nth-of-type(2){
+        width: 70px;
+        height: 21px;
+        font-size: 11px;
+        padding: 1px 5px;
+    }
+    .sub-s{
+        width: 260px;
+        font-size: 14px;
+    }
+    .sub-btn{
+        margin-top: 3rem;
+        margin-left: -3rem;
+    }
+    .sub-btn>button{
+        width: 260px;
+        padding: 8px 2px 10px 1px;
+        font-size: 16px;
+    }
+    .right3b{
+        width: 340px;
+        height: 131px;
+        padding: 1rem;
+        margin-top: -1.5rem;
+    }
+    .right3b>div{
+        width: 320px;
+        height: 24px;
+        font-size: 10px;
+    }
 }

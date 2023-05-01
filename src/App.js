@@ -6,7 +6,7 @@ import {
 import Home from '../src/Pages/Homepage/home';
 import Productpage from '../src/Pages/ProductPage/productpage';
 import Cart from '../src/Pages/Cart/cart';
-import Checkout from '../src/Pages/Checkout/checkout';
+import Checkout from './Pages/Checkout/checkout';
 import Shipping from '../src/Pages/Shipping/shipping';
 
 
