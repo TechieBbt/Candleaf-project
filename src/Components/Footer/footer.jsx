@@ -20,21 +20,23 @@ const footer = () => {
                         <li>Most selled</li>
                     </ul>
                 </div>
-                <div className="footlist">
-                    <ul>
-                        <li><span>About</span></li>
-                        <li>Help</li>
-                        <li>Shipping</li>
-                        <li>Affiliate</li>
-                    </ul>
-                </div>
-                <div className="footlist">
-                    <ul>
-                        <li><span>Info</span></li>
-                        <li>Contact us</li>
-                        <li>Privacy Policies</li>
-                        <li>Terms & Conditions</li>
-                    </ul>
+                <div className="footright2">
+                    <div className="footlist">
+                        <ul>
+                            <li><span>About</span></li>
+                            <li>Help</li>
+                            <li>Shipping</li>
+                            <li>Affiliate</li>
+                        </ul>
+                    </div>
+                    <div className="footlist">
+                        <ul>
+                            <li><span>Info</span></li>
+                            <li>Contact us</li>
+                            <li>Privacy Policies</li>
+                            <li>Terms & Conditions</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

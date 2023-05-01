@@ -46,6 +46,9 @@ hr{
     display: flex;
     padding-top: 2rem;
 }
+.footright2{    
+    display: flex;
+}
 .footlist>ul{
     list-style-type: none;
 }
@@ -82,12 +85,10 @@ hr{
 }
 
 
-@media (max-width: 1204px) {
-    .inner-f{
-        gap: 20%;
+@media screen and (max-width: 1204px) {
+    .footlist{        
+        margin-left: -1rem;
     }
-}
-@media (max-width: 1024px) {
     .inner-f{
         gap: 18%;
     }
@@ -101,7 +102,7 @@ hr{
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .footer{
         height: auto;
         padding-top: 2rem;
@@ -129,9 +130,14 @@ hr{
         justify-content: center;
         padding-top: 1rem;
     }
+    .footright2{        
+        gap: 15rem;
+        margin-left: -80%;
+    }
+    .footright2
     .footlist li{
         width: 100%;
-        text-align: center;
+        text-align: left;
         padding-bottom: 1rem;
     }
 }
@@ -147,5 +153,10 @@ hr{
     .left-f>span{
         width: 250px;
         height: 46px;
+    }
+    .footright2{   
+        flex-direction: column;     
+        gap: 1rem;
+        margin-left: 0%;
     }
 }
