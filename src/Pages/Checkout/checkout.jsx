@@ -69,14 +69,6 @@ const checkout = () => {
                             <div className="box-text">Save this information for a future fast checkout</div>
                         </div>
                     </div>
-                    <div className="below-d">
-                        <Link to ="/cart" style={{ textDecoration:'none'}}> 
-                        <div className="back-to-c">Back to Cart</div> 
-                        </Link>
-                        <Link to ="/shipping" style={{ textDecoration:'none'}}> 
-                        <button>Go to shipping</button>
-                        </Link>
-                    </div>
                 </div>                
             </div>
             <div className="coupon">
@@ -123,6 +115,15 @@ const checkout = () => {
                     </div>
                 </div>
             </div>
+        </div>
+        
+        <div className="below-d">
+            <Link to ="/cart" style={{ textDecoration:'none'}}> 
+            <div className="back-to-c">Back to Cart</div> 
+            </Link>
+            <Link to ="/shipping" style={{ textDecoration:'none'}}> 
+            <button>Go to shipping</button>
+            </Link>
         </div>
     </div>
   )

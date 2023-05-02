@@ -4,7 +4,7 @@
 }
 .bigship{
     width: 52.5%;
-    height: 820px;
+    height: 500px;
 }
 .fill-ship{
     width: 70%;
@@ -138,20 +138,6 @@
     margin: auto;
     padding-top: 1.2rem;
 }
-/* input[type=radio] {
-    box-sizing: border-box;
-    width: 16px;
-    height: 16px;
-    border: 3px solid #DBDBDB;
-    border-radius: 50%;
-    color: white;
-    background: green;
-    cursor: pointer;
-}
-.radio{
-    display: none;
-} */
-
 .radio{
     display: inline-flex;
     width: 292px;
@@ -202,4 +188,103 @@
     letter-spacing: -0.9px;
     color: #272727;
     padding-left: 4.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .fill-ship{
+        width: 70%;
+        margin: 0 10% 0 10%;
+    }
+    .shipg .below-d button{
+        padding: 8px 38px;
+        gap: 7px;
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
+    }
+        
+}
+
+@media screen and (max-width: 768px) {
+    .summarybox{
+        width: 300px;
+        height: 117px;
+    }
+    .summary{
+        width: 290px;
+        height: 16px;
+    }
+    .placed-text{
+        width: 45px;
+        height: 16px;
+        font-size: 11px;
+    }
+    .sum-input{
+        width: 290px;
+        height: 14px;
+        font-size: 14px;
+    }
+    .sum-btn{
+        width: 30px;
+        height: 16px;
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .middleline hr{
+        width: 270px;
+    }
+    .ship-m{
+        width: 150px;
+        height: 26px;
+        font-size: 17px;
+    }
+    .shipbox{
+        width: 300px;
+        height: 58px;
+        margin-bottom: 5rem;
+    }
+    .ship-b{
+        display: flex;
+        gap: 1rem;
+        width: 280px;
+    }
+    .radio{
+        padding-left: 0.5rem;
+        width: 292px;
+        height: 16px;
+    }
+
+    .free{
+        width: 33px;
+        height: 16px;
+        font-size: 12px;
+    }
+    .shipg .below-d button{
+        padding: 8px 25px;
+        gap: 7px;
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .shipg>div:nth-last-child(2){
+        margin-bottom: -30%;
+    }
+    
+    .steps-s{
+        display: flex;
+        gap: 0.5rem;
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .shipping{
+        flex-direction: column;
+    }
+    .shipping .coupon{
+        margin: -1rem 0;
+    }
+    .shipg>div:nth-last-child(2){
+        margin-bottom: -60%;
+    }
 }
