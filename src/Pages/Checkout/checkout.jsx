@@ -2,7 +2,6 @@ import React from 'react'
 import "./checkout.css";
 import {Link } from "react-router-dom";
 import Logo from '../../Assets/logo.png';
-import Cart1 from '../../Assets/Cart1.png';
 import CounterProduct from "../../Assets/productcounter.png";
 
 const checkout = () => {
@@ -15,18 +14,7 @@ const checkout = () => {
                     <Link to = "/">
                         <img src={Logo} alt='logo'/>
                     </Link>
-                </div>
-                <div className="drop">
-                    <div className="drop-down">
-                        <div className="cartdrop">
-                            <img src={Cart1} alt=""/>
-                        </div>
-                        <div className="details-drop">
-                            <span>See  your order details</span><span> <i class="d-arrow down"></i></span>
-                        </div>
-                        <div className="pricedrop">$ 9.99</div>
-                    </div>
-                </div>
+                </div>                
                 <div className="fill-details">
                     <div className="steps">
                         <Link to ="/cart" style={{ textDecoration:'none'}}> 

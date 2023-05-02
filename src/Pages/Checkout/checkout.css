@@ -6,66 +6,6 @@
     padding-bottom: 2rem;
     cursor: pointer;
 }
-.drop{
-    width: 425px;
-    height: 80px;
-    left: 0px;
-    top: 76px;
-    background: #F2F2F2;
-    margin-bottom: 1rem;
-    display: none;
-}
-.drop-down{
-    display: flex;
-    gap: 2rem;
-    padding-top: 1.5rem;
-    padding-left: 1rem;
-}
-.details-drop{
-    display: flex;
-}
-.details-drop>span{
-    width: 180px;
-    height: 26px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    letter-spacing: -0.9px;
-    color: #56B280;
-}
-.d-arrow {
-    border: solid #56B280;
-    border-width: 0 0.25px 0.25px 0;
-    display: inline-block;
-    padding: 3px;
-    margin-bottom: 3px;
-    margin-left: 2px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    cursor: pointer;
-  }
-.down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}
-.pricedrop{
-    width: 95.91px;
-    height: 26px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
-    text-align: right;
-    letter-spacing: -0.9px;
-    color: #272727;
-    margin-left: -11rem;
-}
-
 .check{
     width: 100%;
     display: flex;
@@ -479,5 +419,183 @@ select{
     .fill-details{
         width: 70%;
         margin: 0 10% 0 10%;
+    }
+    
+    .c-top-b{
+        margin-left: -1rem;
+    }
+    .c-top-b>span:nth-of-type(1){
+        font-size: 15px;
+    }
+    .c-top-b>span:nth-of-type(2){
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .check{
+        width: 768px;
+        display: flex;
+    }
+    .details{
+        width: 52.5%;
+        height: 820px;
+    }
+    .fill-details{
+        width: 70%;
+        margin: 0 5% 0 10%;
+    }
+    .steps{
+        display: flex;
+        gap: 0.5rem;
+        padding-bottom: 3rem;
+    }
+    .step-a{
+        font-size: 13px;
+    }
+    .step-b{
+        font-size: 13px;
+    }
+    .step-c{
+        font-size: 13px;
+    }
+    .con-head{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1rem;
+        width: 300px;
+    }
+    .con-left{
+        font-size: 16px;
+    }
+    .con-right{
+        font-size: 12px;
+        margin-top: 2px;
+    }
+    #email{
+        width: 300px;
+        height: 40px;
+    }
+    .box-desc{
+        font-size: 12px;
+    }
+    .shiphead{
+        font-size: 16px;
+    }
+    .names{
+        gap: 0.5rem;
+    }
+    #name{
+        width: 143px;
+    }
+    #note{   
+        width: 300px;
+    }
+    .other-inputs{
+        display: flex;
+        gap: 0.55rem;
+        margin-bottom: 0.7rem;
+        width: 300px;
+    }
+    #other-i{
+        width: 100px;
+    }
+    #province{
+        width: 100px;
+    }
+    select{
+        font-size: 12px;
+    }
+    #country{
+        width: 300px;
+        font-size: 10px;
+    }
+    .box-text{
+        font-size: 12px;
+    }
+    .below-d{
+        gap: 2rem;
+    }
+    .back-to-c{
+        width: 100px;
+        font-size: 15px;
+    }
+    .below-d button{
+        padding: 8px 20px;
+        gap: 10px;
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+    }    
+    
+    .coupon{
+        width: 48%;
+        background: #F2F2F2;
+        height: 820px;
+        background-position: cover;
+        padding-bottom: 5rem;
+    }
+    .coupon-details{
+        width: 90%;
+    }
+    .coupon-top{
+        display: flex;
+        gap: 3rem;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+    }
+    .counternumber{
+        margin-top: 1rem;
+        font-size: 14px;
+        margin: -0.4rem 0 0 7.5rem; 
+    }
+    .c-top-a img{
+        width: 90%;
+        height: 100%;
+    }
+    .c-top-b{
+        margin-left: -2rem;
+    }
+    .c-top-b>span:nth-of-type(1){
+        font-size: 13px;
+    }
+    .c-top-b>span:nth-of-type(2){
+        font-size: 17px;
+    }
+    .shortline hr{
+        width: 325px;
+    }
+    .coupon-code{
+        display: flex;
+        gap: 0.5rem;
+    }
+    .coupon-code input{
+        height: 40px;
+        width: 180px;
+    }
+    .coupon-code button{
+        font-size: 15.65px;
+        width: 106px;
+    }
+    .subtotal{
+        width: 300px;
+        height: 26px;
+    }
+    .subship{
+        width: 300px;
+        height: 26px;
+    }
+    .subtext{
+        font-size: 14px;
+    }
+    .subamount{
+        font-size: 14px;
+    }
+    .total{
+        width: 300px;
+        height: 26px;
+    }
+    .total-amount{
+        font-size: 20px;
     }
 }
