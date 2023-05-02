@@ -280,6 +280,7 @@
 @media screen and (max-width: 425px) {
     .shipping{
         flex-direction: column;
+        margin-left: 10%;
     }
     .shipping .coupon{
         margin: -1rem 0;

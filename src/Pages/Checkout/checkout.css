@@ -627,6 +627,7 @@ select{
         width: 425px;
         display: flex;
         flex-direction: column;
+        margin-left: 10%;
     }
     .details{
         width: 52.5%;
