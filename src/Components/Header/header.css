@@ -172,7 +172,7 @@
             display: none;
             position: absolute;
             left: 0;
-            height: calc(20vh - 20px);
+            height: calc(50vh - 50px);
             width: 50%;
             border-radius: 20px 0px 0px 20px;
             background: #F2F2F2;
