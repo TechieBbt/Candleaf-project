@@ -188,6 +188,9 @@
             font-style: normal;
             list-style-type: none;
         }
+        .mobile-menu li:hover{
+            color: #56B280;
+        }
         .mobile-menu li a{
             text-decoration: none;
             color: #FFFFFF;
