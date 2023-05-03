@@ -6,12 +6,12 @@ import "aos/dist/aos.css";
 
 const Hero = () => {
   useEffect(() => {
-      Aos.init({duration: 2000});
+      Aos.init({duration: 3000});
   }, [])
   return (
     <div className='hero'>
         <Header/>
-        <div data-aos="flip-left" className="innerh">
+        <div data-aos="zoom-in" className="innerh">
             <div data-aos="fade-down" className='heading'>
                 🌱 <br/>
                 The nature candle
@@ -19,7 +19,7 @@ const Hero = () => {
             <div data-aos="fade-up" className='text'>
                 All handmade with natural soy wax, Candleaf is a companion for all your pleasure moments 
             </div>
-            <div data-aos="fade-right" className='btn'>
+            <div data-aos="flip-right" className='btn'>
                 <button>Discover our collection</button>
             </div>
          </div>
