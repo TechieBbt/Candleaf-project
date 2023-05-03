@@ -25,20 +25,23 @@
     color: #5E6E89;
 }
 .test-below{
-    width: 320px;
+    width: 700px;
     margin: auto;
     padding-top: 2rem;
     align-items: center;
+    justify-content: space-between;
+    gap: 40px;
 }
   
-.test-below .testimony{
+.testimony{
     background: #FFFFFF;
     box-shadow: 0px 4px 24px rgba(139, 167, 178, 0.16);
     border-radius: 6px;
     height: 295px;
-    width: 320px;
+    width: 330px;
     align-items: center;
     padding-top: 1rem;
+    margin-right: 4rem;
 }
 .person>img{
     box-shadow: 0px 3.36px 20.16px rgba(139, 167, 178, 0.16);
@@ -81,8 +84,51 @@
 }
 
 
-@media (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .test-head>div:nth-of-type(1){        
         font-size: 28px;
+    }
+    .innerTest{
+        width: 750px;
+        margin: auto;
+    }
+    .test-below{
+        width: 700px;
+        gap: 10px;
+    }
+    .testimony{
+        height: 295px;
+        width: 330px;
+        padding-top: 1rem;
+        margin-right: 4rem;
+    }
+}
+@media screen and (max-width: 425px){
+    .innerTest{
+        width: 380px;
+        margin: auto;
+    }
+    .test-below{
+        width: 320px;
+        gap: 10px;
+    }
+      
+    .testimony{
+        height: 295px;
+        width: 290px;
+        padding-top: 1rem;
+        margin-right: 4rem;
+    }
+    .stars{
+        padding: 0 5rem;
+    }
+    .saying{
+        font-size: 16px;
+        width: 184px;
+        margin: auto;
+    }
+    .name{
+        font-size: 14px;
+        padding-right: 0.1rem;
     }
 }

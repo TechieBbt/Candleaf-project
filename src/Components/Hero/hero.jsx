@@ -1,20 +1,25 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Header from '../Header/header';
 import './hero.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
-const hero = () => {
+const Hero = () => {
+  useEffect(() => {
+      Aos.init({duration: 2000});
+  }, [])
   return (
     <div className='hero'>
         <Header/>
-        <div className="innerh">
-            <div className='heading'>
+        <div data-aos="flip-left" className="innerh">
+            <div data-aos="fade-down" className='heading'>
                 🌱 <br/>
                 The nature candle
             </div>
-            <div className='text'>
+            <div data-aos="fade-up" className='text'>
                 All handmade with natural soy wax, Candleaf is a companion for all your pleasure moments 
             </div>
-            <div className='btn'>
+            <div data-aos="fade-right" className='btn'>
                 <button>Discover our collection</button>
             </div>
          </div>
@@ -23,4 +28,4 @@ const hero = () => {
   )
 }
 
-export default hero
+export default Hero
