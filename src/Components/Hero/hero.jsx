@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const Hero = () => {
   useEffect(() => {
-      Aos.init({duration: 3000});
+      Aos.init({duration: 3000, once: false,});
   }, [])
   return (
     <div className='hero'>
