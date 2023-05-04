@@ -8,9 +8,6 @@ import Productpage from '../src/Pages/ProductPage/productpage';
 import Cart from '../src/Pages/Cart/cart';
 import Checkout from './Pages/Checkout/checkout';
 import Shipping from '../src/Pages/Shipping/shipping';
-import AOS from 'aos';
-import {useEffect} from 'react';
-import 'aos/dist/aos.css';
 
 
 const router = createBrowserRouter([
@@ -36,10 +33,7 @@ const router = createBrowserRouter([
   },
 ]);
 
-function App({ Component, pageProps })  {
-  useEffect(() => {
-    AOS.init({duration : 1000, once : true})
-  }, [])
+function App() {
   return (
     <div>
       <RouterProvider router={router} />
