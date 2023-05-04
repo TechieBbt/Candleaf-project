@@ -1,13 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './about.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Mark from '../../Assets/checkmark.png';
 import Candle from '../../Assets/cleancandleaf.png';
 
 const About = () => {
+    useEffect(() => {
+        Aos.init({duration: 3000});
+    }, [])
+  
   return (
     <div className='about'>
         <div className='inner'>
-            <div className='left-a'>
+            <div data-aos="flip-right" className='left-a'>
                 <div className='head-a'>
                 Clean and fragrant soy wax
                 </div>
@@ -34,7 +40,7 @@ const About = () => {
                     <button>Learn more</button>
                 </div>
             </div>
-            <div className='right-a'>
+            <div data-aos="flip-left" className='right-a'>
                 <img src={Candle} alt="" />
             </div>
         </div>
