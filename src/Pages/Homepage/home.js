@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from '../../Components/Hero/Hero';
+import HeroSection from '../../Components/HeroSection/Hero';
 import Products from '../../Components/Products/products';
 import About from '../../Components/About-Section/about';
 import Testimonials from '../../Components/Testimonials/testimonials';
@@ -9,7 +9,7 @@ import Footer from '../../Components/Footer/footer';
 const home = () => {
   return (
     <div>
-        <Hero/>
+        <HeroSection/>
         <Products/>
         <About/>
         <Testimonials/>
