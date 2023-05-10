@@ -5,12 +5,11 @@ import Logo from '../../Assets/logo.png';
 import Profile from '../../Assets/Profile.png';
 import Cart from '../../Assets/Cart.png';
 
-
 const toggleMobileMenu = (menu) => {
-  menu.classList.toggle('open');
-};
+    menu.classList.toggle('open');
+  };
 
-const Header = (props) => {
+const Myheader = (props) => {
   return (
     <div className='header'>
       <div className='nav'>
@@ -51,4 +50,4 @@ const Header = (props) => {
   )
 }
 
-export default Header
+export default Myheader

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./cart.css";
 import {Link } from "react-router-dom";
-import Header from "../../Components/Header/Header";
+import Header from "../../Components/Header/Myheader";
 import Footer from "../../Components/Footer/footer";
 import Spiced from "../../Assets/smallproduct.png";
 

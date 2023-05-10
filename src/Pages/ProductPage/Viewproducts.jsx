@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./productpage.css";
-import Header from "../../Components/Header/Header";
+import Header from "../../Components/Header/Myheader";
 import Footer from "../../Components/Footer/footer";
 import Spiced from "../../Assets/spiced.png";
 import cart from "../../Assets/whiteCart.png";
