@@ -5,8 +5,9 @@ import Footer from "../../Components/Footer/footer";
 import Spiced from "../../Assets/spiced.png";
 import cart from "../../Assets/whiteCart.png";
 
-const Product = () => {
-  const [quantity, setQuantity] = useState(1);
+
+const Viewproducts = () => {
+    const [quantity, setQuantity] = useState(1);
 
   const handleDecrement = () => {
     if (quantity > 1) {
@@ -17,7 +18,6 @@ const Product = () => {
   const handleIncrement = () => {
     setQuantity(quantity + 1);
   };
-
   return (
     <div>
       <Header quantity={quantity} />
@@ -92,10 +92,10 @@ const Product = () => {
                 <b>Weight:</b> 400g
               </div>
             </div>
-          </div>
+        </div>
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default Product;
+export default Viewproducts
