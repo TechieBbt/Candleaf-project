@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import Header from '../Header/header';
+import Header from '../Header/Header';
 import './Hero.css';
 import Aos from "aos";
 import "aos/dist/aos.css";

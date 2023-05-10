@@ -1,18 +1,36 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./cart.css";
 import {Link } from "react-router-dom";
-import Header from "../../Components/Header/header";
+import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/footer";
 import Spiced from "../../Assets/smallproduct.png";
 
-const cart = () => {
+const Cart = () => {
+    const [quantity, setQuantity] = useState(1);
+
+    const handleDecrement = () => {
+      if (quantity > 1) {
+        setQuantity(quantity - 1);
+      }
+    };
+  
+    const handleIncrement = () => {
+      setQuantity(quantity + 1);
+    };
+
+    const handleRemove = () => {
+        // Remove the product from the cart
+      }
+
   return (
     <div className="cart">
-        <Header/>
+        <Header quantity={quantity}/>
         <div className="mycart">
             <div className="cart-head">
                 <div>Your cart items</div>
-                <div>Back to shopping</div>
+                <Link to="/" style={{ textDecoration:'none'}}>
+                    <div className="cart-shop">Back to shopping</div>
+                </Link>
             </div>
             <div className="table-head">
                 <div className="head1">Product</div>
@@ -28,11 +46,17 @@ const cart = () => {
                     </div>
                     <div className="proImgside">
                         <div>Spiced Mint Candleaf®</div>
-                        <div>Remove</div>
+                        <div onClick={handleRemove}>Remove</div>
                     </div>
                 </div>
                 <div className="rightTable">
-                    <span>$ 9.99</span><span className="boxq">1</span><span>$ 9.99</span>
+                    <span>$ 9.99</span>
+                    <div className="boxq">
+                        <button onClick={handleIncrement}>+</button>
+                        <input type="number" value={quantity} readOnly />
+                        <button onClick={handleDecrement}>-</button>
+                    </div>
+                    <span>$ 9.99</span>
                 </div>
             </div>
             <hr/>
@@ -55,4 +79,4 @@ const cart = () => {
   )
 }
 
-export default cart
+export default Cart

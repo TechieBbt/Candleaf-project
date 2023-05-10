@@ -1,14 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "./productpage.css";
-import Header from "../../Components/Header/header";
+import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/footer";
 import Spiced from "../../Assets/spiced.png";
 import cart from "../../Assets/whiteCart.png";
 
-const product = () => {
+const Product = () => {
+  const [quantity, setQuantity] = useState(1);
+
+  const handleDecrement = () => {
+    if (quantity > 1) {
+      setQuantity(quantity - 1);
+    }
+  };
+
+  const handleIncrement = () => {
+    setQuantity(quantity + 1);
+  };
+
   return (
     <div>
-      <Header />
+      <Header quantity={quantity} />
       <div className="about-product">
         <div className="left-side">
           <img src={Spiced} alt="" />          
@@ -20,7 +32,11 @@ const product = () => {
               <span>$9.99</span>
               <div className="quantity">
                 <div className="q-text">Quantity</div>
-                <div className="q-box">1</div>
+                <div className="q-box">
+                  <button onClick={handleIncrement}>+</button>
+                  <input type="number" value={quantity} readOnly />
+                  <button onClick={handleDecrement}>-</button>
+                </div>
               </div>
             </div>
             <div className="right2b">
@@ -82,4 +98,4 @@ const product = () => {
   );
 };
 
-export default product;
+export default Product;

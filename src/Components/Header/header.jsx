@@ -10,7 +10,7 @@ const toggleMobileMenu = (menu) => {
   menu.classList.toggle('open');
 };
 
-const header = () => {
+const Header = (props) => {
   return (
     <div className='header'>
       <div className='nav'>
@@ -39,7 +39,10 @@ const header = () => {
         <div className='right-nav'>
           <img src={Profile} alt=""/>
           <Link to = "/cart">
-            <img src={Cart} alt="" />
+            <div className="cart-container" >
+              <img src={Cart} alt="" />
+              {props.quantity > 0 && <div className="cart-count">{props.quantity}</div>}
+            </div>
           </Link>
         </div>
       </div>
@@ -48,4 +51,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header

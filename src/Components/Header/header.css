@@ -78,6 +78,32 @@
 .right-nav>img:active {
     transform: translateY(4px);
 }
+.cart-container>img:active {
+    transform: translateY(4px);
+}
+.cart-container {
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 11px;
+  height: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #FFFFFF;
+  background: #56B280;
+  border-radius: 50%;
+}
+
 .underline hr{
     width: 99.5%;
     margin: auto;

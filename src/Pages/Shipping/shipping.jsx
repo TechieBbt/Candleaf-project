@@ -65,7 +65,6 @@ const shipping = () => {
                     <div className="coupon-top">
                         <div className="c-top-a">
                             <div className="counternumber"> 1
-                            {/* <img src={CounterNumber} alt=""/> */}
                             </div>
                             <div>
                             <img src={CounterProduct} alt=""/>
@@ -107,10 +106,10 @@ const shipping = () => {
         </div>         
         <div className="below-d">
             <Link to ="/checkout" style={{ textDecoration:'none'}}> 
-            <div className="back-to-c">Back to Details</div> 
+                <div className="back-to-c">Back to Details</div> 
             </Link>
-            <Link to ="/" style={{ textDecoration:'none'}}> 
-            <button>Go to Payment</button>
+            <Link to ="/" onClick={() => window.scrollTo(0, 0)} style={{ textDecoration:'none'}}> 
+                <button onClick={() => window.scrollTo(0, 0)}>Go to Payment</button>
             </Link>
         </div>
     </div>

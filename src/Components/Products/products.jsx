@@ -19,7 +19,7 @@ const products = () => {
         </div>
         <div className='below-p'>
             <div className="box-p">
-                <Link to="/product">
+                <Link to="/product" onClick={() => window.scrollTo(0, 0)}>
                 <button className="add-to-cart">View Product</button>
                 </Link>
                 <div className="candle">

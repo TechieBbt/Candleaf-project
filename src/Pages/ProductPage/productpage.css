@@ -72,30 +72,37 @@
     color: #272727;
     padding-top: 2.5rem;
 }
-.q-box{
+.q-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #56B280;
+    margin-top: 1rem;
+    width: 75px;
+    text-align: center;
+    padding: 0 0 0 3px;
+    margin-left: 3px;
+  }
+.q-box input{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
-    text-align: center;
     letter-spacing: -0.9px;
     color: #1D252C;
-    border: 1px solid #56B280;
-    margin-top: 1rem;
+    border: none;
+    outline: none; 
+    width: 25px;   
+    margin-right: -8px;
 }
-.q-box:before{
-    content: "\002B";
-    cursor: arrow;
-    margin-right: 0.5rem;
+  
+  .q-box button {
+    cursor: pointer;
     color: #56B280;
-}
-.q-box:after{
-    content: "\002D";
-    cursor: arrow;
-    margin-left: 0.5rem;
-    color: #A7A7A7;
-}
+    border: none;
+    background: none;
+    font-size: 18px;
+  }
 .onegroup{
     display: flex;
     gap: 1rem;
@@ -284,6 +291,7 @@
     }
     .q-box{
         font-size: 15px;
+        width: 70px;
     }
     .onegroup{
         display: flex;
@@ -442,10 +450,10 @@
         font-size: 15px;
     }
     .q-box{
-        font-size: 15px;
-        height: 1.5rem;
+        font-size: 13px;
+        height: 1.8rem;
         margin-top: 2.5rem;
-        width: 3.3rem;
+        width: 65px;
 
     }
     .onegroup{

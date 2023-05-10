@@ -19,7 +19,7 @@
     color: #272727;
     padding-top: 1rem;
 }
-.cart-head>div:nth-of-type(2){
+.cart-shop{
     padding-top: 1rem;
     height: 26px;
     font-family: 'Roboto';
@@ -123,7 +123,7 @@
     padding-top: 3.2rem;
 }
 .rightTable>span{    
-    width: 150px;
+    width: 190px;
     height: 26px;
     font-family: 'Roboto';
     font-style: normal;
@@ -133,24 +133,38 @@
     letter-spacing: -0.9px;
     color: #272727;
 }
-.boxq{    
+.boxq input{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.9px;
+    color: #1D252C;
+    border: none;
+    outline: none; 
+    width: 25px;   
+    margin-right: -8px;
+}
+.boxq {
+    display: flex;
+    align-items: center;
     border: 1px solid #56B280;
-    padding-left: 1rem;
     width: 75px;
     height: 30px;
-}
-.boxq:before{
-        content: "\002B";
-        cursor: arrow;
-        margin-right: 0.5rem;
-        color: #56B280;
-    }
-.boxq:after{
-        content: "\002D";
-        cursor: arrow;
-        margin-left: 0.5rem;
-        color: #A7A7A7;
-    }
+    text-align: center;
+    padding: 0 0 0 3px;
+    margin-top: -3px;
+    margin-left: 2%;
+  }
+  
+  .boxq button {
+    cursor: pointer;
+    color: #56B280;
+    border: none;
+    background: none;
+    font-size: 18px;
+  }
 .underTable{
     padding-top: 1.5rem;
     float: right;
@@ -279,15 +293,15 @@
     }
     
     .rightTable > span {
-        width: 110px;
+        width: 140px;
         font-size: 14px;
         line-height: 22px;
     }
     
     .boxq {
-        padding-left: 0.5rem;
-        width: 50px;
-        height: 24px;
+        width: 70px;
+        height: 30px;
+
     }
     
     .underTable{
@@ -334,9 +348,25 @@
     }
     .rightTable {
         margin-left: -3rem;
+        gap: 2rem;
     }
     .rightTable > span {
-        width: 90px;
+        width: 110px;
+    }
+    .boxq {
+        width: 45px;
+        height: auto;
+        margin-right: 35px;
+        padding: 0;
+        margin-top: -10px;
+        margin-left: -12px;
+    }
+    .boxq input{
+        font-size: 16px;
+        width: 20px;
+    }
+    .boxq button{
+        font-size: 14px;
     }
     .underTable{
         padding-top: 1.5rem;
@@ -414,6 +444,14 @@
     }
     .rightTable {
         margin-left: 3rem;
+    }
+    .boxq {
+        width: 45px;
+        height: auto;
+        margin-right: 10px;
+        padding: 0;
+        margin-top: -10px;
+        margin-left: -32px;
     }
     .underTable{
         padding-top: 1.5rem;
