@@ -5,7 +5,7 @@ import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/footer";
 import Spiced from "../../Assets/smallproduct.png";
 
-const Cart = () => {
+const Mycart = () => {
     const [quantity, setQuantity] = useState(1);
 
     const handleDecrement = () => {
@@ -79,4 +79,4 @@ const Cart = () => {
   )
 }
 
-export default Cart
+export default Mycart
